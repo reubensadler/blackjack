@@ -155,9 +155,10 @@ int main()
 {
 	auto deck{ createDeck() };
 
-	//For the first round, print the deck to compare drawn cards with the expected order and check everything is running correctly
+	//Print the deck to check deck has been created correctly
 	//Can remove for final version
 	printDeck(deck);
+
 	int playerPoints{};
 	int dealerPoints{};
 
