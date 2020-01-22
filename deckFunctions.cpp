@@ -97,5 +97,5 @@ void printDeck(const deck_type& deck)
 		std::cout << " ";
 	}
 
-	std::cout << '\n\n';
+	std::cout << "\n\n";
 }
